@@ -16,6 +16,7 @@ database.update<-function(...){
   #data-raw director
   #setwd("data-raw/")
   #verificando se o diretorio de banco de dados está vazio:
+  #usaremos a base antiga, a principio, fgv_informação.csv
   if(length(dir(all.files=TRUE)) !=0){
     print("cheking for updates...")
     #renomeando a base existente para diferenciação
