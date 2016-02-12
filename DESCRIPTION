@@ -1,0 +1,10 @@
+Package: BETS
+Type: Package
+Title: Brazilian Economic Time Series
+Version: 0.0.98
+Date: 2016-02-02
+Author: Pedro G. C. Ferreira <pgcferreira@gmail.com> and Daiane M. de Mattos <daimmattos@gmail.com> and jonatha Azevedo da Costa <jonatha.costa@fgv.br> and Rodrigo Barreto Alves <rodrigo.alves@fgv.br>
+Maintainer: Daiane M. de Mattos <daimmattos@gmail.com> and jonatha Azevedo da Costa <jonatha.costa@fgv.br> and Rodrigo Barreto Alves <rodrigo.alves@fgv.br>
+Description: This package contains some free time series published by the Brazilian Institute of Economics (FGV|IBRE).
+License: GPL(>=2)
+LazyData: true
