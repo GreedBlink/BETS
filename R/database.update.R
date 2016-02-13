@@ -1,15 +1,4 @@
 #database update
-#teste
-getwd()
-dir()
-info.file(dir())
-
-aux=file.mtime("data-raw\\base_modeloparametrico.csv")
-
-aux2=as.Date(aux)
-
-as.numeric(aux2)
-getwd()
 
 
 database.update<-function(...){
@@ -36,5 +25,3 @@ database.update<-function(...){
     download.file("https://sourceforge.net/projects/banco-de-dados-teste/files/base_modeloparametrico.csv/download",destfile = "base_modeloparametrico.csv")
   }
 }
-getwd()
-database.update()
